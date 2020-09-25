@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
                 break;
             }
         }
-        if(uoc==0){
+        if(uoc==2){
             printf("so nguyen to nho hon la %d \n",i);
         }else{
         }
