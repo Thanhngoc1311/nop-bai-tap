@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
         }
     int biendem = 1,luubiendem = 0;
     for (int i = 0; i < n; i++) {
-        if (arr[i] >= 0 ) {
+        if (arr[i] > 0 ) {
             if (arr[i+1] == arr[i] + 1) {
                 biendem += 1;
             }else{
